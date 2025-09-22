@@ -1,0 +1,4 @@
+flask
+SQLAlchemy==2.0.43
+flask_sqlalchemy
+pymysql

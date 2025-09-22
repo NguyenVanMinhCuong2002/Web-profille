@@ -1,4 +1,4 @@
 .env
 alembic.ini
-src/__pycache__
-migrations
+src/__pycache__/
+migrations/

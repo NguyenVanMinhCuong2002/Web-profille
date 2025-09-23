@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, request, jsonify, redirect, session
-from services.user_service import UserService
-from services.project_service import ProjectsService
-from database.connection import db
-from middleware.auth import login_required
+from src.services.user_service import UserService
+from src.services.project_service import ProjectsService
+from src.database.connection import db
+from src.middleware.auth import login_required
 
 admin_bp = Blueprint("admin", __name__, url_prefix="/admin")
 
@@ -89,7 +89,7 @@ def login():
 
 
 @admin_bp.route("/register", methods= ["GET"])
-@login_required
+# @login_required
 def get_register_page():
     return render_template("admin/register.html")
 
@@ -104,7 +104,7 @@ def logout():
 
 
 @admin_bp.route("/register", methods=["POST"])
-@login_required
+# @login_required
 def register():
     data = request.form 
 

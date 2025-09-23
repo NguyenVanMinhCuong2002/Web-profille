@@ -1,10 +1,10 @@
 from flask import Flask
-from controllers.home_controller import home_bp
-from controllers.projects_controller import projects_bp
-from controllers.admin_controller import admin_bp
-from config import Config
+from src.controllers.home_controller import home_bp
+from src.controllers.projects_controller import projects_bp
+from src.controllers.admin_controller import admin_bp
+from src.config import Config
 import time
-from database.connection import db
+from src.database.connection import db
 
 
 app = Flask(__name__)

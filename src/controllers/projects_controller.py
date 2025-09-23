@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request, jsonify, redirect
-from services.project_service import ProjectsService
-from database.connection import db
-from middleware.auth import login_required
+from src.services.project_service import ProjectsService
+from src.database.connection import db
+from src.middleware.auth import login_required
 
 projects_bp = Blueprint("projects", __name__)
 

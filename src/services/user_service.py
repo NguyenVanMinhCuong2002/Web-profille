@@ -1,5 +1,5 @@
 from sqlalchemy.exc import IntegrityError
-from models.users import User
+from src.models.users import User
 from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 

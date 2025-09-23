@@ -1,7 +1,5 @@
-from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String 
 from database.connection import Base
-import os
 
 
 class User(Base):

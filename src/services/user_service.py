@@ -18,11 +18,13 @@ class UserService:
         new_user = User(username=name, email=email, password=hash_password)
         self.db_session.add(new_user)
 
-
         try:
+
             self.db_session.commit()
             self.db_session.refresh(new_user)  # load ID tự động sinh
+
         except IntegrityError:
+            
             self.db_session.rollback()
             raise ValueError("Email đã tồn tại")
         

@@ -1,4 +1,4 @@
-# Web Profile 
+# Patch 1.0
 a project introducing a programmer, with his resume and a few mini projects
 ![alt text](assets/image.png)
 
@@ -6,17 +6,11 @@ a project introducing a programmer, with his resume and a few mini projects
 - Sub Project 01: Vehicle Detection (Github: https://github.com/NguyenVanMinhCuong2002/Yolo11-training.git)
 - Sub Project 02: Math Chatbot (Github: https://github.com/NguyenVanMinhCuong2002/HUST-CHATBOT.git)
 
-## Target 
-- Profile Developer
-- White Box 
-- Vuln Lab
+## Changing 
+FLI:
 
-## Vul 
-- LFI (Local File Inclusion)
-- Broken Authentication
-- Security Misconfiguration
+![alt text](image-1.png)
 
-# Notes
-- Security Docs: https://github.com/NguyenVanMinhCuong2002/pet-projects/tree/master/security_reports/pentest
-- Patch: ..
-- Video Pentest: https://github.com/NguyenVanMinhCuong2002/pet-projects/blob/master/security_reports/pentest/pentesting_video.mp4
+Fix Bug Use White List to filter input
+
+![alt text](image.png)

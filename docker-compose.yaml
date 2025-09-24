@@ -1,21 +1,21 @@
 version: "3.9"
 
 services:
-  # web:
-  #   build: .
-  #   container_name: flask_app
-  #   restart: always
-  #   ports:
-  #     - "5001:5001"
-  #   volumes:
-  #     - .:/app
-  #   depends_on:
-  #     - db
-  #   environment:
-  #     USER_DB: ${USER_DB}
-  #     PASSWORD_DB: ${PASSWORD_DB}
-  #     URL_DB: ${URL_DB}
-  #     DB: ${DB}
+  web:
+    build: .
+    container_name: flask_app
+    restart: always
+    ports:
+      - "5001:5001"
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+    environment:
+      USER_DB: ${USER_DB}
+      PASSWORD_DB: ${PASSWORD_DB}
+      URL_DB: ${URL_DB}
+      DB: ${DB}
 
   db:
     image: mysql:8.0

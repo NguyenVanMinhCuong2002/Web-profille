@@ -15,3 +15,8 @@ a project introducing a programmer, with his resume and a few mini projects
 - LFI (Local File Inclusion)
 - Broken Authentication
 - Security Misconfiguration
+
+# Notes
+- Security Docs: https://github.com/NguyenVanMinhCuong2002/Web-profille/tree/master/security_reports
+- Patch: ..
+- Video Pentest: https://github.com/NguyenVanMinhCuong2002/Web-profille/blob/master/security_reports/pentest/pentesting_video.mp4

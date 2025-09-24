@@ -1,0 +1,54 @@
+{% extends "layouts/admin.html" %}
+
+
+{% block content %}
+
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Products</h1>
+    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
+        For more information about DataTables, please visit the <a target="_blank"
+            href="https://datatables.net">official DataTables documentation</a>.</p>
+
+    <!-- DataTales Example -->
+    <form method="POST" action="/update-project">
+    <div class="modal-body">
+
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input name="Id" type="id" id="idCreateProjectForm" class="form-control form-control-lg" value="{{project.id}}" readonly/>
+                <label class="form-label" for="idCreateProjectForm">ID</label>
+            </div>
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input name="name" type="name" id="nameCreateProjectForm" class="form-control form-control-lg" value="{{project.name}}"/>
+                <label class="form-label" for="nameCreateProjectForm">Name</label>
+            </div>
+
+     
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input name="github" type="text" id="githubCreateProjectForm" class="form-control form-control-lg" value="{{project.github}}"/>
+                <label class="form-label" for="githubCreateProjectForm">Github Link</label>
+            </div>
+
+
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input type="text" name="link" id="linkCreateProjectForm" class="form-control form-control-lg" value="{{project.link}}"/>
+                <label class="form-label" for="linkCreateProjectForm">link</label>
+            </div>
+
+
+            <div data-mdb-input-init class="form-outline mb-4">
+                <textarea name="description" id="descriptionCreateProjectForm" class="form-control form-control-lg">{{project.description}}</textarea>
+                <label class="form-label" for="descriptionCreateProjectForm">description</label>
+            </div>
+
+            
+        </div>
+            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block">Save</button>
+        
+    </div>
+</form>
+</div>
+
+{% endblock %}

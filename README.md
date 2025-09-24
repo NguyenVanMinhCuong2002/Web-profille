@@ -17,6 +17,6 @@ a project introducing a programmer, with his resume and a few mini projects
 - Security Misconfiguration
 
 # Notes
-- Security Docs: https://github.com/NguyenVanMinhCuong2002/Web-profille/tree/master/security_reports
+- Security Docs: https://github.com/NguyenVanMinhCuong2002/pet-projects/tree/master/security_reports/pentest
 - Patch: ..
-- Video Pentest: https://github.com/NguyenVanMinhCuong2002/Web-profille/blob/master/security_reports/pentest/pentesting_video.mp4
+- Video Pentest: https://github.com/NguyenVanMinhCuong2002/pet-projects/blob/master/security_reports/pentest/pentesting_video.mp4

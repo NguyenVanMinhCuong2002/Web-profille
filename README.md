@@ -18,5 +18,5 @@ a project introducing a programmer, with his resume and a few mini projects
 
 # Notes
 - Security Docs: https://github.com/NguyenVanMinhCuong2002/pet-projects/tree/master/security_reports/pentest
-- Patch: ..
+- Patch:  https://github.com/NguyenVanMinhCuong2002/pet-projects/pull/new/patch-1.0
 - Video Pentest: https://github.com/NguyenVanMinhCuong2002/pet-projects/blob/master/security_reports/pentest/pentesting_video.mp4
